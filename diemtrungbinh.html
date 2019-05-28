@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính điểm trung bình</title>
+</head>
+<body>
+    <script>
+        let ly = prompt("Nhập điểm lý : ");
+        let hoa = prompt("Nhập điểm hóa : ");
+        let sinh = prompt("Nhập điểm sinh : ");
+        ly = parseFloat(ly);
+        hoa = parseFloat(hoa);
+        sinh = parseFloat(sinh);
+        let tongdiem = ly + hoa + sinh;
+        let dtb = (ly + hoa + sinh)/3;
+
+        document.write("điểm trung bình = " + dtb);
+        document.write("<br/>");
+        document.write("tổng điểm các môn : " + tongdiem);
+    </script>
+</body>
+</html>
